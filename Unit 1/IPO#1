@@ -1,0 +1,32 @@
+"""Header
+Name:Gabriel
+Date:
+Version:
+Description:
+"""
+
+#Constants
+ticketCOST = 65
+miscellaniousCOST = 100
+
+#Variables
+foodCOST = float(input("Enter the amount spent on Food "))
+djCOST = float(input("Enter the amount spent on the DJ "))
+hallCOST = float(input("Enter the amount spent on the Hall "))
+decorationsCOST = float(input("Enter the amount spent on Decorations "))
+waitingstaffCOST = float(input("Enter the amount spent on the Waiting staff "))
+
+#Process
+totalCOST = foodCOST + djCOST + hallCOST + decorationsCOST + waitingstaffCOST + miscellaniousCOST
+ticketsNEEDED = totalCOST/ticketCOST
+ticketsNEEDEDr = round(ticketsNEEDED+.5)
+profit = ticketsNEEDEDr * ticketCOST - totalCOST
+
+#Output
+print("The Total cost is",totalCOST)
+print("The Tickets needed is",ticketsNEEDEDr)
+print("The Profit made is",profit)
+
+
+
+

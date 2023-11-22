@@ -1,0 +1,10 @@
+Moose 23 15 10 19
+Tyron 70 80 90 100
+Bob 10 20 30 40
+John 1 2 3 4
+Bemal 100 100 100 100
+Apple 40 30 20 10
+Orange 95 85 75 65
+Peach 17 18 27 40
+Billy 70 54 38 92
+Dog 0 0 0 0
