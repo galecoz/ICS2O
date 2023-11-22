@@ -22,4 +22,5 @@ print("There will be a Total of 6 questions with 4 multiple choice and 2 fill in
 
 
 #Program
-#while quizRun = True:
+while quizRun == True:
+    print("")
